@@ -1,5 +1,28 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#8257E5",
+    justifyContent: "center",
+    padding: 40,
+  },
 
-export default StyleSheet;
+  banner: {
+    width: "100%",
+    resizeMode: "contain",
+  },
+
+  title: {
+    color: "#FFF",
+    fontSize: 20,
+    lineHeight: 30,
+    marginTop: 30,
+  },
+
+  titleBold: {
+    fontWeight: "bold",
+  },
+});
+
+export default styles;
